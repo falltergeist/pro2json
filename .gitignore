@@ -6,5 +6,6 @@ cmake_install.cmake
 pro2json.layout
 pro2json
 pro2json.cbp
-.idea/
+.idea
 *.autosave
+/cmake-build-debug

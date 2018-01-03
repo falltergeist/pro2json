@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Falltergeist developers
+ * Copyright (c) 2015-2018 Falltergeist developers
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to
@@ -52,7 +52,6 @@ int32_t int32(std::ifstream& stream)
     return uint32(stream);
 }
 
-
 uint8_t uint8(std::ifstream& stream)
 {
     uint8_t value;
@@ -64,7 +63,7 @@ uint8_t uint8(std::ifstream& stream)
 void usage(std::string binaryName)
 {
     cout << "PRO to JSON converter v0.1.0" << endl;
-    cout << "Copyright (c) 2015 Falltergeist developers" << endl;
+    cout << "Copyright (c) 2015-2018 Falltergeist developers" << endl;
     cout << "Usage: " << binaryName << " <PRO filename>" << endl;
 }
 

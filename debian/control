@@ -1,0 +1,15 @@
+Source: pro2json
+Section: utils
+Priority: optional
+Maintainer: Dmitry V. Alexeev <mail@alexeevdv.ru>
+Build-Depends: debhelper (>=9), cmake (>=2.8)
+Standards-Version: 3.9.6
+Homepage: https://github.com/falltergeist/pro2json
+Vcs-Git: git://github.com/falltergeist/pro2json.git
+Vcs-Browser: https://github.com/falltergeist/pro2json.git
+
+Package: pro2json
+Architecture: any
+Depends:
+Description: Fallout 1\2 *.pro to json converter
+ Fallout 1\2 *.pro to json converter
